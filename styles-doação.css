@@ -355,4 +355,12 @@ label {
 .imagem-form {
     background-image: url(/PII_FRONT-END_O_SEMEADOR-main/IMAGENS/mulher-esta-contando-dinheiro-com-seu-telefone\ 1.png);
 }
+.bg {
+        background-color: #F79824;
+}
+#form {
+    display: flex;
+    justify-content:left;
+}
+
 

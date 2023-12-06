@@ -103,9 +103,9 @@
             </div>
         </div>
         <!-- formulario para doação de cupom fiscal -->
-        <div class="formulario-completo container">
+        <div class="formulario-completo">
             <div class="row">
-                <div class="formulario1 col-5">
+                <div class=" d-flex col-4">
                     <form class="formulario row col-12 pt-3 px-0" action="doacao">
                         <div class="surname campo col-6">
                             <label for="nome" class="form-label">Nome:</label>
@@ -122,7 +122,7 @@
                         <button type="submit" class="btn enviar" >Enviar</button>
                         
                     </form>
-                    <div class="col-12">
+                    <div class="col-12 my-5">
                         <p class="ou">OU</p>
                     </div>
                     <div class="imagem-codigo row col-12 ">
@@ -132,61 +132,62 @@
                                 <img src="/PII_FRONT-END_O_SEMEADOR-main/IMAGENS/seta-branca-png.png" width="15" height="15" alt="">
                                 <p>INSIRA UMA IMAGEM</p>
                             </div>
-                            <button type="submit" class="btn upload">Realizar upload</button>
+                            <input type="file">
+                            <!-- <button type="submit" class="btn upload">Realizar upload</button> -->
                         </div>
                     </div>
                 </div>
                 <div class="imagem-form col-7"></div>
             </div>
         </div>
-        <h3 class="subtitle">
-            Ou faça uma doação por PIX.</h3>
+        <h1 class="title" weight="30">Ou faça uma doação por PIX.</h1>
         Número da chave PIX (CNPJ):
         <p>48.569.263.0001/42</p>
-        </div>
-        <footer>
-            <div id="footer_content">
-                <div id="footer_contacts" class="justify-content-center">
-                    <div class="footer_logo">
-                        <img class="semeador_footer" src="img/logo.jpg" alt="">
-                    </div>
-                    <div id="footer_social_media">
-                        <a href="#" class="footer-link" id="instagram">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
-                        <a href="#" class="footer-link" id="facebook">
-                            <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-                        <a href="#" class="footer-link" id="whatsapp">
-                            <i class="fa-brands fa-whatsapp"></i>
-                        </a>
-                    </div>
+    </body>
+
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts" class="justify-content-center">
+                <div class="footer_logo">
+                    <img class="semeador_footer" src="img/logo.jpg" alt="">
                 </div>
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#" class="footer-link" id="facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            <ul class="footer-list">
                 <ul class="footer-list">
-                    <ul class="footer-list">
-                        <li>
-                            <h3>Endereço:</h3>
-                        </li>
-                        <li>
-                            <p>R. dos Meninos, 555 - Nova Gerti, São Caetano do Sul - SP, 09580-300</p>
-                        </li>
-                    </ul>
-                    <ul class="footer-list">
-                        <li>
-                            <h3>Email:</h3>
-                        </li>
-                        <li>
-                            <p>atendimento@osemeador.com</p>
-                        </li>
-                    </ul>
-                    <ul class="footer-list">
-                        <li>
-                            <h3>Telefone:</h3>
-                        </li>
-                        <li>
-                            <p>+55 11 9999-9999</p>
-                        </li>
-                    </ul>
+                    <li>
+                        <h3>Endereço:</h3>
+                    </li>
+                    <li>
+                        <p>R. dos Meninos, 555 - Nova Gerti, São Caetano do Sul - SP, 09580-300</p>
+                    </li>
+                </ul>
+                <ul class="footer-list">
+                    <li>
+                        <h3>Email:</h3>
+                    </li>
+                    <li>
+                        <p>atendimento@osemeador.com</p>
+                    </li>
+                </ul>
+                <ul class="footer-list">
+                    <li>
+                        <h3>Telefone:</h3>
+                    </li>
+                    <li>
+                        <p>+55 11 9999-9999</p>
+                    </li>
+                </ul>
             </ul>
             <section class="mapa">
                 <div class="mapa-conteudo">
@@ -201,10 +202,10 @@
                 </div>
             </section>
         </div>
-        <div id="footer_copyright">
-            &#169 Alunos Insituto Mauá de Tecnologia (Dev Luiz Miguel Seixeiro/Paulo
-            Vinicius Campos)
-        </div>
+    <div id="footer_copyright">
+        &#169 Alunos Insituto Mauá de Tecnologia (Dev Luiz Miguel Seixeiro/Paulo
+        Vinicius Campos)
+    </div>
     </footer>
     <script src="js/scripts.js"></script>
     <div vw="vw" class="enabled">
